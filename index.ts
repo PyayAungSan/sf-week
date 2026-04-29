@@ -17,6 +17,8 @@ import * as todaysTix from "./sources/sf/todays-tix.ts";
 import * as sfmoma from "./sources/sf/sfmoma.ts";
 import * as act from "./sources/sf/act.ts";
 import * as berkeleyRep from "./sources/sf/berkeley-rep.ts";
+import * as sfPlayhouse from "./sources/sf/sf-playhouse.ts";
+import * as magicTheatre from "./sources/sf/magic-theatre.ts";
 
 const ROOT = new URL(".", import.meta.url).pathname;
 
@@ -198,6 +200,8 @@ async function fetchLive(
     ["sfmoma", sfmoma],
     ["act", act],
     ["berkeley-rep", berkeleyRep],
+    ["sf-playhouse", sfPlayhouse],
+    ["magic-theatre", magicTheatre],
   ] as const) {
     try {
       const result = await mod.run();
@@ -294,6 +298,29 @@ async function loadFromFixtures(
   } catch (err) {
     failedSources.push("berkeley-rep");
     console.error(`[sf-week] berkeley-rep fixture: ${err}`);
+  }
+  // SF Playhouse — fixture is one HTML file per show
+  try {
+    for (const slug of ["flex", "dracula", "hairspray"]) {
+      const html = await loadFixture(`sf-playhouse-${slug}.html`);
+      const e = sfPlayhouse.parseShowHtml(
+        html,
+        `https://www.sfplayhouse.org/2025-2026-season/${slug}/`,
+        aliases,
+      );
+      if (e) all.push(e);
+    }
+  } catch (err) {
+    failedSources.push("sf-playhouse");
+    console.error(`[sf-week] sf-playhouse fixture: ${err}`);
+  }
+  // Magic Theatre — fixture is the calendar HTML page
+  try {
+    const html = await loadFixture("magic-theatre.html");
+    all.push(...magicTheatre.parseHtml(html, aliases));
+  } catch (err) {
+    failedSources.push("magic-theatre");
+    console.error(`[sf-week] magic-theatre fixture: ${err}`);
   }
   return all;
 }
