@@ -1,0 +1,54 @@
+[
+  {
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "name": "Hamnet",
+    "startDate": "2026-04-22T18:00:00-0700",
+    "endDate": "2026-05-24T20:00:00-0700",
+    "image": "https://res.cloudinary.com/a-c-t/image/upload/c_fill,g_auto,h_1200,w_900/f_auto/q_auto/v1769129401/Uploads/Season_Pages/25-26_Season/Hamnet/RSC-2026-01-Hamnet-US-780x1042-NoBilling-aw?_a=BAAAV6DQ",
+    "location": {
+      "@type": "Place",
+      "name": "TONI REMBE THEATER",
+      "address": "TONI REMBE THEATER"
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "name": "Stereophonic",
+    "startDate": "2025-10-28T18:00:00-0700",
+    "endDate": "2025-11-23T20:00:00-0800",
+    "image": "https://res.cloudinary.com/a-c-t/image/upload/c_fill,g_auto,h_1200,w_900/f_auto/q_auto/v1744000787/Uploads/Season_Pages/25-26_Season/Stereophonic/Stereophonic_780x1042_v1?_a=BAAAV6DQ",
+    "location": {
+      "@type": "Place",
+      "name": "CURRAN THEATER (NEXT DOOR TO THE TONI REMBE THEATER)",
+      "address": "CURRAN THEATER (NEXT DOOR TO THE TONI REMBE THEATER)"
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "name": "A Streetcar Named Desire",
+    "startDate": "2026-01-21T18:00:00-0800",
+    "endDate": "2026-02-01T20:00:00-0800",
+    "image": "https://res.cloudinary.com/a-c-t/image/upload/c_fill,g_auto,h_1200,w_900/f_auto/q_auto/v1744750118/Uploads/Season_Pages/25-26_Season/Streetcar-Named-Desire/Streetcar-780x1042?_a=BAAAV6DQ",
+    "location": {
+      "@type": "Place",
+      "name": "TONI REMBE THEATER",
+      "address": "TONI REMBE THEATER"
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "name": "Kim\u2019s Convenience",
+    "startDate": "2025-09-18T19:30:00-0700",
+    "endDate": "2025-10-19T21:30:00-0700",
+    "image": "https://res.cloudinary.com/a-c-t/image/upload/c_fill,g_auto,h_1200,w_900/f_auto/q_auto/v1744220072/Uploads/Season_Pages/24-25-Season/Kims-Convenience/Kims-Convenience-780x1042?_a=BAAAV6DQ",
+    "location": {
+      "@type": "Place",
+      "name": "TONI REMBE THEATER",
+      "address": "TONI REMBE THEATER"
+    }
+  }
+]
