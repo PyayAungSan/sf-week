@@ -2,43 +2,108 @@
 
 Personal SF city-event digest. Sunday morning email + `.ics` calendar feed, LLM-graded picks against a plain-English taste profile.
 
-## Design history
+## Quick start
 
-Read [`design/`](design/) for the full thinking behind this project:
+```bash
+bun install                                              # one-time
+bun run digest --user pyay --no-grade --dry-run          # see the pipeline shape
+bun run digest --user pyay --from-fixtures --no-grade --dry-run  # offline shape test
+```
 
-- [`design/01-design-doc.md`](design/01-design-doc.md) — Problem, premises, approaches, architecture, success criteria
-- [`design/02-ceo-plan.md`](design/02-ceo-plan.md) — Scope decisions and the directory-layout reasoning
-- [`design/03-test-plan.md`](design/03-test-plan.md) — Test inventory and critical paths
+That last command works from a clean checkout with no API keys, no network. It loads from `test/fixtures/`, mock-rates everything 7/10, and prints the email HTML to stdout.
+
+To see real LLM-graded picks:
+
+```bash
+export ANTHROPIC_API_KEY=...
+bun run digest --user pyay --no-grade --dry-run          # live fetch, mock grading (free)
+bun run digest --user pyay --dry-run                     # live fetch + real grading (~pennies)
+```
+
+## Status
+
+**Working today (8/11 sources, live fetch + tests passing):**
+
+| Source | URL | Strategy |
+|---|---|---|
+| sfmoma | sfmoma.org/events/ | live fetch + cheerio cards |
+| act | act-sf.org/whats-on/2025-26-season | live fetch + per-show JSON-LD |
+| berkeley-rep | berkeleyrep.org/season/ | live fetch + collapsed per-perf JSON-LD |
+| sf-playhouse | sfplayhouse.org/2025-2026-season/ | live fetch + date-range regex |
+| magic-theatre | magictheatre.org/calendar | live fetch + gcal URL params |
+| asian-art | calendar.asianart.org/ | live fetch + data-time Unix |
+| broadway-sf | broadwaysf.com/events | fixture-backed (needs playwright for live) |
+| todays-tix | todaytix.com/sf-bay-area | fixture-backed (needs playwright for live) |
+
+**TODO (3/11):** famsf, bampfa, luma — see `sources.json` for per-source status.
+
+**Dropped:** hyperallergic — no flat SF-events listing exists.
 
 ## Architecture
 
 ```
 sf-week/
-├── core/                # the durable asset: taste model + grader
-├── users/pyay/          # taste.md (the entire product)
-├── sources/sf/          # 11 source parsers, codified via /skillify
-├── outputs/             # email.ts (Resend), ics.ts (calendar feed)
-├── snapshots/           # weekly events.json snapshots for --replay
-├── docs/                # GitHub Pages serves calendar.ics from here
-└── .github/workflows/   # cron runs Sunday 17:00 UTC
+├── core/
+│   ├── types.ts            # Event, Rating, DigestResult schemas
+│   ├── grader.ts           # Anthropic SDK call + degraded-mode wrapper
+│   ├── prompt.ts           # cached system prompt
+│   ├── dedupe.ts           # URL + fuzzy normalized_key dedupe
+│   ├── ics-uid.ts          # stable UID = sha1(normalized_key)
+│   └── picker.ts           # 9-cap, 3/vertical, ≥6/10 floor, block_now
+├── users/pyay/
+│   └── taste.md            # the entire product — edit to retune picks
+├── sources/sf/
+│   ├── _template.ts        # interface for new sources
+│   ├── broadway-sf.ts      ├── todays-tix.ts
+│   ├── sfmoma.ts           ├── act.ts
+│   ├── berkeley-rep.ts     ├── sf-playhouse.ts
+│   ├── magic-theatre.ts    └── asian-art.ts
+├── outputs/
+│   ├── email.ts            # HTML + Resend send
+│   └── ics.ts              # VCALENDAR + VTIMEZONE
+├── snapshots/<YYYY-MM-DD>/
+│   └── events.json         # weekly snapshot for --replay
+├── docs/
+│   └── calendar.ics        # generated weekly, served by GitHub Pages
+└── .github/workflows/
+    └── digest.yml          # cron, Sunday 17:00 UTC
 ```
 
-## Commands
+## CLI
 
 ```bash
-bun install
-bun run digest --user pyay --dry-run   # print email HTML to stdout, no send
-bun run digest --user pyay --replay 2026-05-04   # re-run against past snapshot
-bun test                                # run all tests (free, <5s)
+bun run digest [flags]
+
+  --user pyay              # which users/<handle>/taste.md to load
+  --dry-run                # print email HTML to stdout, don't send or commit
+  --from-fixtures          # load events from test/fixtures/ instead of network
+  --no-grade               # mock 7/10 ratings (skip Anthropic call)
+  --replay YYYY-MM-DD      # load snapshots/<date>/events.json + run pipeline
 ```
 
-## Config
+## Tests
 
-- `users/pyay/taste.md` — the taste profile (the product)
-- `sources.json` — source URLs grouped by parser type (api/static-html/headed-browser)
-- `venues.json` — venue alias map for fuzzy dedupe
+```bash
+bun test                   # all tests, ~700ms, no network/API needed
+bunx tsc --noEmit          # type check
+```
 
-## Secrets (GitHub Actions)
+124+ tests across grader, picker, dedupe, email, ics, every source's parser, and a full-pipeline integration test.
 
-- `ANTHROPIC_API_KEY` — for the LLM grader
-- `RESEND_API_KEY` — for sending the weekly email
+## Design history
+
+Read [`design/`](design/) for the full thinking:
+
+- [`design/01-design-doc.md`](design/01-design-doc.md) — Problem, premises, approaches, architecture, success criteria
+- [`design/02-ceo-plan.md`](design/02-ceo-plan.md) — Scope decisions and the directory-layout reasoning
+- [`design/03-test-plan.md`](design/03-test-plan.md) — Test inventory and critical paths
+
+## Production cron — what's left
+
+The `.github/workflows/digest.yml` file is on disk but not yet pushed (gh OAuth needs `workflow` scope). Once pushed:
+
+1. `gh auth refresh -s workflow -h github.com`
+2. `git add .github/workflows/digest.yml && git commit && git push`
+3. Set secrets: `gh secret set ANTHROPIC_API_KEY -R PyayAungSan/sf-week`, same for `RESEND_API_KEY` and `DIGEST_TO_EMAIL`
+4. Enable GitHub Pages from `/docs` on `main` (already done via `gh api`)
+5. First scheduled Sunday at 17:00 UTC is the real test
