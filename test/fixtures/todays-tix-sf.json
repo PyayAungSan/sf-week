@@ -1,0 +1,1576 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Hell&apos;s Kitchen",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/44316-hells-kitchen",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/1YoSkQ5DCtMgqj4SrHml6p/2a33a3908e79e64a7516a6623f40a73d/ATG_HellsKitchen_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Orpheum Theatre"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Orpheum Theatre"
+    },
+    "startDate": "2026-05-06",
+    "endDate": "2026-05-24",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "price": 66,
+      "priceCurrency": "USD",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/44316-hells-kitchen",
+      "validFrom": "2026-05-06",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-05-24"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Hell&apos;s Kitchen"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "Orpheum Theatre",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/44316-hells-kitchen"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Come From Away",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46535-come-from-away",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/oOjPYB9oNdilbhoICpc08/e2bca7457f741f03a7f79f7c54c8f488/TheatreWorks_ComeFromAway_480x720_d2.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Mountain View Center for Performing Arts"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Mountain View Center for Performing Arts"
+    },
+    "startDate": "2026-04-15",
+    "endDate": "2026-05-10",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "price": 55,
+      "priceCurrency": "USD",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46535-come-from-away",
+      "validFrom": "2026-04-15",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-05-10"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Come From Away"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "Mountain View Center for Performing Arts",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46535-come-from-away"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Hamnet",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/44752-hamnet",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/3llf5CIIj8vqVy9aPISEAd/0799e5165bfb3266f3d3f4d14ed0dfb3/RSC_HAMNET_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "The Toni Rembe Theater (formerly The Geary Theater)"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "The Toni Rembe Theater (formerly The Geary Theater)"
+    },
+    "startDate": "2026-04-22",
+    "endDate": "2026-05-24",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "price": 53,
+      "priceCurrency": "USD",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/44752-hamnet",
+      "validFrom": "2026-04-22",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-05-24"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Hamnet"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "The Toni Rembe Theater (formerly The Geary Theater)",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/44752-hamnet"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Dear San Francisco",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/26442-dear-san-francisco",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/3fdsvhwMZmNw3VKa2sf4ll/960c7c02b6a646c8cd88b332cac6dcc8/DSF_DKsky_480x720_v1.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Club Fugazi"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Club Fugazi"
+    },
+    "startDate": "2021-09-22",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "price": 59,
+      "priceCurrency": "USD",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/26442-dear-san-francisco",
+      "validFrom": "2021-09-22",
+      "availability": "https://schema.org/InStock"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Dear San Francisco"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "Club Fugazi",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/26442-dear-san-francisco"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "The Lunchbox",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/44706-the-lunchbox",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/Vs64grUnS3hSvgaa8xxTq/a214b3b70609703997c490b0d2cd8187/Lunchbox_Poster.png",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Roda Theatre at Berkeley Rep"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Roda Theatre at Berkeley Rep"
+    },
+    "startDate": "2026-05-17",
+    "endDate": "2026-06-28",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "price": 54,
+      "priceCurrency": "USD",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/44706-the-lunchbox",
+      "validFrom": "2026-05-17",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-06-28"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "The Lunchbox"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "Roda Theatre at Berkeley Rep",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/44706-the-lunchbox"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Mean Girls: The Musical",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46283-mean-girls-the-musical",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/6QvCCSJnySzHAvb7QnRpWq/8893c5b30055c9a599d47e4ad3046229/Mean_Girls_Vertical_Key_Title_Art_480x720.png",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Ray of Light Theatre at The Barbary Stage"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Ray of Light Theatre at The Barbary Stage"
+    },
+    "startDate": "2026-05-01",
+    "endDate": "2026-05-30",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "price": 36,
+      "priceCurrency": "USD",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46283-mean-girls-the-musical",
+      "validFrom": "2026-05-01",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-05-30"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Mean Girls: The Musical"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "Ray of Light Theatre at The Barbary Stage",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46283-mean-girls-the-musical"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "The Monsters",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/44709-the-monsters",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/01RsFW54W3HaQQQG4eVOPl/087c2a3fe93ced36c55b009a52ab6cba/Untitled_design__36_.png",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Peet&apos;s Theatre at Berkeley Rep"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Peet&apos;s Theatre at Berkeley Rep"
+    },
+    "startDate": "2026-03-27",
+    "endDate": "2026-05-03",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "price": 71,
+      "priceCurrency": "USD",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/44709-the-monsters",
+      "validFrom": "2026-03-27",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-05-03"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "The Monsters"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "Peet&apos;s Theatre at Berkeley Rep",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/44709-the-monsters"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Dracula: A Feminist Revenge Fantasy, Really",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/44240-dracula-a-feminist-revenge-fantasy-really",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/4ZOEZVZD70kzdFseA0rRQk/9ebc64741fb1ac4b063cddc3a5057890/dracula-tt-poster.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "San Francisco Playhouse"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "San Francisco Playhouse"
+    },
+    "startDate": "2026-05-14",
+    "endDate": "2026-06-27",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "price": 25,
+      "priceCurrency": "USD",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/44240-dracula-a-feminist-revenge-fantasy-really",
+      "validFrom": "2026-05-14",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-06-27"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Dracula: A Feminist Revenge Fantasy, Really"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "San Francisco Playhouse",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/44240-dracula-a-feminist-revenge-fantasy-really"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Flex",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/44094-flex",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/7mAkCwmH1GyWIzr0UhfNEM/3a45a410a25b67470bf72d35a6455ef2/flex-480.png",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "San Francisco Playhouse"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "San Francisco Playhouse"
+    },
+    "startDate": "2026-03-26",
+    "endDate": "2026-05-02",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "price": 25,
+      "priceCurrency": "USD",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/44094-flex",
+      "validFrom": "2026-03-26",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-05-02"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Flex"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "San Francisco Playhouse",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/44094-flex"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Urinetown: The Musical",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46280-urinetown-the-musical",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/HyzapOJCjra9urZwcZbMe/a1f67905be7d2c745bcc626e95eeb4ef/Urinetown_Vertical_Key_Title_Art_480x720.png",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Ray of Light Theatre at The Barbary Stage"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Ray of Light Theatre at The Barbary Stage"
+    },
+    "startDate": "2026-07-31",
+    "endDate": "2026-08-29",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "price": 32,
+      "priceCurrency": "USD",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46280-urinetown-the-musical",
+      "validFrom": "2026-07-31",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-08-29"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Urinetown: The Musical"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "Ray of Light Theatre at The Barbary Stage",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46280-urinetown-the-musical"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Ren\u00e9e Fleming",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/45839-renee-fleming",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/1nwS1HTqo6j88HQAgcO7Da/daf73841e10eda7d5bb40a3aea48b05e/Renee_Fleming__Inon_Barnatan_-_480x720.png",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Cal Performances&apos; Zellerbach Hall"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Cal Performances&apos; Zellerbach Hall"
+    },
+    "startDate": "2026-05-03",
+    "endDate": "2026-05-03",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "price": 92,
+      "priceCurrency": "USD",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/45839-renee-fleming",
+      "validFrom": "2026-05-03",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-05-03"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Ren\u00e9e Fleming"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "Cal Performances&apos; Zellerbach Hall",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/45839-renee-fleming"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Hairspray",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/44241-hairspray",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/73HIIPV73hSuUWfqLvydiv/3f5e1550b7e76c3b132adbe2a53d57e0/06_hairspray_poster.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "San Francisco Playhouse"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "San Francisco Playhouse"
+    },
+    "startDate": "2026-07-10",
+    "endDate": "2026-09-12",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "price": 42,
+      "priceCurrency": "USD",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/44241-hairspray",
+      "validFrom": "2026-07-10",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-09-12"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Hairspray"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "San Francisco Playhouse",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/44241-hairspray"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Lara Downes and Friends - This Land: Reflections on America",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/45840-lara-downes-and-friends-this-land-reflections-on-america",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/2uHh2p0kzPjJYV9imnf9HZ/59a39950ca1027f86042a9f7253a90d7/Lara_Downes_and_Friends_-_480x720.png",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Cal Performances&apos; Zellerbach Hall"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Cal Performances&apos; Zellerbach Hall"
+    },
+    "startDate": "2026-05-09",
+    "endDate": "2026-05-09",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "price": 45,
+      "priceCurrency": "USD",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/45840-lara-downes-and-friends-this-land-reflections-on-america",
+      "validFrom": "2026-05-09",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-05-09"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Lara Downes and Friends - This Land: Reflections on America"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "Cal Performances&apos; Zellerbach Hall",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/45840-lara-downes-and-friends-this-land-reflections-on-america"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Once Upon a One More Time",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46281-once-upon-a-one-more-time",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/5IR6SjFq67RUn5DUYzZ3Tl/44bfe30424297a758423f85393ddbcfd/Once_Upon_a_One_More_Time_Key_Art_480x720.png",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Ray of Light Theatre at The Barbary Stage"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Ray of Light Theatre at The Barbary Stage"
+    },
+    "startDate": "2026-10-23",
+    "endDate": "2026-11-21",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "price": 27,
+      "priceCurrency": "USD",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46281-once-upon-a-one-more-time",
+      "validFrom": "2026-10-23",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-11-21"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Once Upon a One More Time"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "Ray of Light Theatre at The Barbary Stage",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46281-once-upon-a-one-more-time"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "The Barber of Seville",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/44150-the-barber-of-seville",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/1r0e0TwIML9zpjDewie6g6/c3552b272ce372106c92f353ef0a950a/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "SF Opera at The War Memorial Opera House"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "SF Opera at The War Memorial Opera House"
+    },
+    "startDate": "2026-05-28",
+    "endDate": "2026-06-21",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/44150-the-barber-of-seville",
+      "validFrom": "2026-05-28",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-06-21"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "The Barber of Seville"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "SF Opera at The War Memorial Opera House",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/44150-the-barber-of-seville"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "North by Northwest",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46822-north-by-northwest",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/5GgDFEZlQvgEWt16mFaDU2/eb5c3bbe6b098ee6f3e7d4d7917573b3/NORAM_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "The Toni Rembe Theater (formerly The Geary Theater)"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "The Toni Rembe Theater (formerly The Geary Theater)"
+    },
+    "startDate": "2026-09-22",
+    "endDate": "2026-10-18",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46822-north-by-northwest",
+      "validFrom": "2026-09-22",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-10-18"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "North by Northwest"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "The Toni Rembe Theater (formerly The Geary Theater)",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46822-north-by-northwest"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Les Mis\u00e9rables",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/32599-les-miserables-sj",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/4kmGquD8lc50tivRvC21x6/83a24a1db907a9ab9b2f8579a9116fe2/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "startDate": "2026-04-29",
+    "endDate": "2026-05-03",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/32599-les-miserables-sj",
+      "validFrom": "2026-04-29",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-05-03"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Les Mis\u00e9rables"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "San Jose Center for the Performing Arts",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/32599-les-miserables-sj"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Das Rheingold",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46316-das-rheingold",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/33ne81h2476id5B61aHCb3/c9ec6e92bdd430017715f73287e9bd21/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "War Memorial Opera House"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "War Memorial Opera House"
+    },
+    "startDate": "2027-05-29",
+    "endDate": "2027-06-22",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46316-das-rheingold",
+      "validFrom": "2027-05-29",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2027-06-22"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Das Rheingold"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "War Memorial Opera House",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46316-das-rheingold"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Mamma Mia!",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46728-mamma-mia",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/4HsRqZAfYMN2NIUd9Yp9zT/05161c3da76df060aadb26a27efae1f4/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "startDate": "2027-06-08",
+    "endDate": "2027-07-13",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46728-mamma-mia",
+      "validFrom": "2027-06-08",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2027-07-13"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Mamma Mia!"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "San Jose Center for the Performing Arts",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46728-mamma-mia"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "The Comeuppance",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46830-the-comeuppance",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/22xt1FDIYhFXGHZhp8Z5Vx/aaf8829633882aa69f3d0bc07f1c605f/NORAM_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "The Toni Rembe Theater (formerly The Geary Theater)"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "The Toni Rembe Theater (formerly The Geary Theater)"
+    },
+    "startDate": "2027-04-20",
+    "endDate": "2027-05-16",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46830-the-comeuppance",
+      "validFrom": "2027-04-20",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2027-05-16"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "The Comeuppance"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "The Toni Rembe Theater (formerly The Geary Theater)",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46830-the-comeuppance"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "John Proctor is the Villian",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46831-john-proctor-is-the-villian",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/2xnCInauiyqcLO0ORkIzHw/1d0174fb71c428aec1270b24d42d2ad7/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "The Toni Rembe Theater (formerly The Geary Theater)"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "The Toni Rembe Theater (formerly The Geary Theater)"
+    },
+    "startDate": "2026-11-12",
+    "endDate": "2026-12-06",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46831-john-proctor-is-the-villian",
+      "validFrom": "2026-11-12",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-12-06"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "John Proctor is the Villian"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "The Toni Rembe Theater (formerly The Geary Theater)",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46831-john-proctor-is-the-villian"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "The Bad News Bears: The Musical",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46833-the-bad-news-bears-the-musical",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/5xBM9TNSFwzHUKj5vAXr7X/eb688c4b7079f086084682f1f6443f82/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "The Toni Rembe Theater (formerly The Geary Theater)"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "The Toni Rembe Theater (formerly The Geary Theater)"
+    },
+    "startDate": "2027-02-26",
+    "endDate": "2027-04-04",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46833-the-bad-news-bears-the-musical",
+      "validFrom": "2027-02-26",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2027-04-04"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "The Bad News Bears: The Musical"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "The Toni Rembe Theater (formerly The Geary Theater)",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46833-the-bad-news-bears-the-musical"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Elektra",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/44152-elektra-sfo",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/ajCDoTjFBFx6cJCV9uiLU/396a66fe2ad632111477b140eb62823c/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "War Memorial Opera House"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "War Memorial Opera House"
+    },
+    "startDate": "2026-06-07",
+    "endDate": "2026-06-27",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/44152-elektra-sfo",
+      "validFrom": "2026-06-07",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-06-27"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Elektra"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "War Memorial Opera House",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/44152-elektra-sfo"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "The Sound of Music",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/44071-the-sound-of-music-sj",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/6aKPPck1oT9sQtcwCnCejo/8d308c605cf7aed2048aea2136528e67/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "startDate": "2026-07-21",
+    "endDate": "2026-07-26",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/44071-the-sound-of-music-sj",
+      "validFrom": "2026-07-21",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-07-26"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "The Sound of Music"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "San Jose Center for the Performing Arts",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/44071-the-sound-of-music-sj"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Mere Mortals",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/44716-mere-mortals",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/6D12Q1cXySiX31BofIKsUZ/212194020e7dac5fdab0cd27816d74cf/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "War Memorial Opera House"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "War Memorial Opera House"
+    },
+    "startDate": "2026-04-24",
+    "endDate": "2026-05-03",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/44716-mere-mortals",
+      "validFrom": "2026-04-24",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-05-03"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Mere Mortals"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "War Memorial Opera House",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/44716-mere-mortals"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Hamilton",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46727-hamilton",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/1ndFs2GqbPjjokrx1RziIv/db7713587394423907c1324d3438db14/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "startDate": "2027-07-07",
+    "endDate": "2027-07-18",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46727-hamilton",
+      "validFrom": "2027-07-07",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2027-07-18"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Hamilton"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "San Jose Center for the Performing Arts",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46727-hamilton"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "The Notebook",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46783-the-notebook",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/3xGuAwKLfRtJ6DSlpxg3D0/f4d63383b5e6a6d4e17065e24855a350/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "startDate": "2027-05-04",
+    "endDate": "2027-05-09",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46783-the-notebook",
+      "validFrom": "2027-05-04",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2027-05-09"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "The Notebook"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "San Jose Center for the Performing Arts",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46783-the-notebook"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Iraq, But Funny",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46832-iraq-but-funny",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/3udjJAV57SQ1XK7hVJAzz/6652878dfdef500fea23e36224c8db7c/NORAM_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "A.C.T.&apos;s Strand Theater"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "A.C.T.&apos;s Strand Theater"
+    },
+    "startDate": "2027-05-13",
+    "endDate": "2027-06-13",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46832-iraq-but-funny",
+      "validFrom": "2027-05-13",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2027-06-13"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Iraq, But Funny"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "A.C.T.&apos;s Strand Theater",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46832-iraq-but-funny"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Simon Boccanegra",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46282-simon-boccanegra",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/7uxxrGxUBySJB1abda40LI/ca370409caeb50298613d8cf56bd79ae/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "SF Opera at The War Memorial Opera House"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "SF Opera at The War Memorial Opera House"
+    },
+    "startDate": "2026-09-12",
+    "endDate": "2026-09-27",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46282-simon-boccanegra",
+      "validFrom": "2026-09-12",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-09-27"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Simon Boccanegra"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "SF Opera at The War Memorial Opera House",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46282-simon-boccanegra"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Mary, Queen of Scots",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46284-mary-queen-of-scots",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/3spmy0Xya45HI5e4q1BsPw/63d56f30f161c3a125e2b0aa0677e867/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "War Memorial Opera House"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "War Memorial Opera House"
+    },
+    "startDate": "2026-09-20",
+    "endDate": "2026-10-04",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46284-mary-queen-of-scots",
+      "validFrom": "2026-09-20",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-10-04"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Mary, Queen of Scots"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "War Memorial Opera House",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46284-mary-queen-of-scots"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Tosca",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46317-tosca",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/6eZomawPAGhTZqncaKe4tK/6852788d9e018af2aca1f18edb3bfaee/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "War Memorial Opera House"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "War Memorial Opera House"
+    },
+    "startDate": "2027-06-04",
+    "endDate": "2027-07-02",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46317-tosca",
+      "validFrom": "2027-06-04",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2027-07-02"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Tosca"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "War Memorial Opera House",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46317-tosca"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Oh, Mary!",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46823-oh-mary",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/r3desyCmgOASDLp5JhcWz/50a39506ada71314764ea291fbb0d873/NORAM_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "The Curran Theatre"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "The Curran Theatre"
+    },
+    "startDate": "2026-10-13",
+    "endDate": "2026-11-01",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46823-oh-mary",
+      "validFrom": "2026-10-13",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-11-01"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Oh, Mary!"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "The Curran Theatre",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46823-oh-mary"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Mrs. Doubtfire",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46784-mrs-doubtfire",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/74qasfGgqz1uQ03GQAeWMt/d3caacb8ad2044c800346f5b51769267/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "startDate": "2027-02-16",
+    "endDate": "2027-02-21",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46784-mrs-doubtfire",
+      "validFrom": "2027-02-16",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2027-02-21"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Mrs. Doubtfire"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "San Jose Center for the Performing Arts",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46784-mrs-doubtfire"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Phantom of The Opera",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46800-phantom-of-the-opera",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/6xPxF8D07gv0Br5oL4dr2h/ba0692b1a15c91f8f3e2b311d2085513/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "startDate": "2026-10-07",
+    "endDate": "2026-10-18",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46800-phantom-of-the-opera",
+      "validFrom": "2026-10-07",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-10-18"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Phantom of The Opera"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "San Jose Center for the Performing Arts",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46800-phantom-of-the-opera"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "The Bodyguard",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46786-the-bodyguard",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/4T4TqD8xln7PY0QvzLzNl6/b777ccc51e4f3aa06caddcebdbab92c3/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "startDate": "2027-02-02",
+    "endDate": "2027-02-07",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46786-the-bodyguard",
+      "validFrom": "2027-02-02",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2027-02-07"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "The Bodyguard"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "San Jose Center for the Performing Arts",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46786-the-bodyguard"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Disney&apos;s Beauty and the Beast",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46846-disneys-beauty-and-the-beast-sfo",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/2m2Vld4w2V7g4oGfMZZ435/5e5b936566c74c9255b400e60c4edd38/Poster_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "startDate": "2026-09-08",
+    "endDate": "2026-09-13",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46846-disneys-beauty-and-the-beast-sfo",
+      "validFrom": "2026-09-08",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-09-13"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Disney&apos;s Beauty and the Beast"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "San Jose Center for the Performing Arts",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46846-disneys-beauty-and-the-beast-sfo"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Disney&apos;s Beauty and the Beast",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/1882-disneys-beauty-and-the-beast-orpheum-theatre",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/3rhKpsWUzmBYGqsNzqS79/b32d807eaeba03c3315419383b83a28a/BSF_Beauty_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Orpheum Theatre"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Orpheum Theatre"
+    },
+    "startDate": "2026-07-14",
+    "endDate": "2026-08-09",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/1882-disneys-beauty-and-the-beast-orpheum-theatre",
+      "validFrom": "2026-07-14",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-08-09"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Disney&apos;s Beauty and the Beast"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "Orpheum Theatre",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/1882-disneys-beauty-and-the-beast-orpheum-theatre"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "The Marriage of Figaro",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/18067-the-marriage-of-figaro",
+    "description": "Here comes the bride. And her rival. And the man trying seduce her. And his wife.",
+    "image": "https://images.ctfassets.net/6pezt69ih962/2tQZvgWCJhYLZFAbX1evkz/3eae911f9fce9fcecb1d43455d2e1955/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "SF Opera at The War Memorial Opera House"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "SF Opera at The War Memorial Opera House"
+    },
+    "startDate": "2026-10-31",
+    "endDate": "2026-11-29",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/18067-the-marriage-of-figaro",
+      "validFrom": "2026-10-31",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-11-29"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "The Marriage of Figaro"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "SF Opera at The War Memorial Opera House",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/18067-the-marriage-of-figaro"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Manon",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/43611-manon",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/77Cvg6vVVhty6K4D7EbAiK/42c36a4731d76a74428311b5d65f44c0/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "War Memorial Opera House"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "War Memorial Opera House"
+    },
+    "startDate": "2026-10-15",
+    "endDate": "2026-11-01",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/43611-manon",
+      "validFrom": "2026-10-15",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-11-01"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Manon"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "War Memorial Opera House",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/43611-manon"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Back to the Future",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/44069-back-to-the-future-sj",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/150BfWl0tVkYyum6eSCl9Z/02f831deed33e5bc56d6ea01b85741d2/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "startDate": "2026-06-02",
+    "endDate": "2026-06-07",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/44069-back-to-the-future-sj",
+      "validFrom": "2026-06-02",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-06-07"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Back to the Future"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "San Jose Center for the Performing Arts",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/44069-back-to-the-future-sj"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "The Phantom of the Opera",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/44624-the-phantom-of-the-opera",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/2aEZOlIc0ud0I7zefMfv0C/c033fb8a2ffe8cba8a249d6f2c5f41b8/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Orpheum Theatre"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Orpheum Theatre"
+    },
+    "startDate": "2026-05-28",
+    "endDate": "2026-06-21",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/44624-the-phantom-of-the-opera",
+      "validFrom": "2026-05-28",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-06-21"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "The Phantom of the Opera"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "Orpheum Theatre",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/44624-the-phantom-of-the-opera"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "The Who\u2019s Tommy",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46787-the-whos-tommy",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/4ToUGRTfbHb4rYPF6zxbJQ/2d2174dc3afd424e8cb778233ae4825b/ComingSoon_480x720.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "San Jose Center for the Performing Arts"
+    },
+    "startDate": "2026-11-17",
+    "endDate": "2026-11-22",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46787-the-whos-tommy",
+      "validFrom": "2026-11-17",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-11-22"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "The Who\u2019s Tommy"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "San Jose Center for the Performing Arts",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46787-the-whos-tommy"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TheaterEvent",
+    "name": "Pictures from Home",
+    "url": "https://www.todaytix.com/sf-bay-area/shows/46848-pictures-from-home",
+    "description": "",
+    "image": "https://images.ctfassets.net/6pezt69ih962/6xJrcUTRtL5ceuqxloJkML/2d64a1940f899a0a32d6221c50eed391/MTC_PFH_480x720_v1.jpg",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Marin Theatre Company"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Marin Theatre Company"
+    },
+    "startDate": "2026-05-07",
+    "endDate": "2026-05-31",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www.todaytix.com/sf-bay-area/shows/46848-pictures-from-home",
+      "validFrom": "2026-05-07",
+      "availability": "https://schema.org/InStock",
+      "priceValidUntil": "2026-05-31"
+    },
+    "performer": {
+      "@type": "TheaterGroup",
+      "name": "Pictures from Home"
+    },
+    "workPerformed": {
+      "@type": "CreativeWork",
+      "name": "Marin Theatre Company",
+      "sameAs": "https://www.todaytix.com/sf-bay-area/shows/46848-pictures-from-home"
+    }
+  }
+]

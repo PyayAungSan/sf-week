@@ -1,24 +1,65 @@
 {
   "_notes": {
-    "todays-tix": "REMOVED 2026-04-29: confirmed TodayTix only serves NYC. URL pattern is /nyc/..., no SF presence. Replace with Goldstar SF if a deal-aggregator source is wanted later.",
-    "broadway-sf": "Site is broadwaysf.com but redirects to us.atgtickets.com. JS-rendered React app — needs playwright, not static fetch."
+    "broadway-sf": "Site is broadwaysf.com but redirects to us.atgtickets.com. JS-rendered React app \u2014 needs playwright, not static fetch.",
+    "todays-tix": "JSON-LD strategy: parses schema.org TheaterEvent entries from <script type=application/ld+json>. Stable across page redesigns. URL is /sf-bay-area/, NOT /san-francisco."
   },
   "sf": {
-    "api_or_rss": [],
+    "api_or_rss": [
+      {
+        "name": "todays-tix",
+        "url": "https://www.todaytix.com/sf-bay-area/category/all-shows",
+        "notes": "Use parseJsonLd() over schema.org TheaterEvent JSON-LD; production fetchHtml needs playwright to render the page first."
+      }
+    ],
     "static_html": [
-      {"name": "act", "url": "https://www.act-sf.org/whats-on/"},
-      {"name": "berkeley-rep", "url": "https://www.berkeleyrep.org/season/"},
-      {"name": "sf-playhouse", "url": "https://sfplayhouse.org/sfph/2025-26-season/"},
-      {"name": "magic-theatre", "url": "https://www.magictheatre.org/season"},
-      {"name": "sfmoma", "url": "https://www.sfmoma.org/calendar/"},
-      {"name": "de-young", "url": "https://www.famsf.org/de-young/calendar"},
-      {"name": "bampfa", "url": "https://bampfa.org/programs/calendar"},
-      {"name": "asian-art", "url": "https://asianart.org/events/"},
-      {"name": "hyperallergic", "url": "https://hyperallergic.com/category/events/sf/"}
+      {
+        "name": "act",
+        "url": "https://www.act-sf.org/whats-on/"
+      },
+      {
+        "name": "berkeley-rep",
+        "url": "https://www.berkeleyrep.org/season/"
+      },
+      {
+        "name": "sf-playhouse",
+        "url": "https://sfplayhouse.org/sfph/2025-26-season/"
+      },
+      {
+        "name": "magic-theatre",
+        "url": "https://www.magictheatre.org/season"
+      },
+      {
+        "name": "sfmoma",
+        "url": "https://www.sfmoma.org/calendar/"
+      },
+      {
+        "name": "de-young",
+        "url": "https://www.famsf.org/de-young/calendar"
+      },
+      {
+        "name": "bampfa",
+        "url": "https://bampfa.org/programs/calendar"
+      },
+      {
+        "name": "asian-art",
+        "url": "https://asianart.org/events/"
+      },
+      {
+        "name": "hyperallergic",
+        "url": "https://hyperallergic.com/category/events/sf/"
+      }
     ],
     "headed_browser": [
-      {"name": "broadway-sf", "url": "https://www.broadwaysf.com/events", "notes": "React/MUI app, redirects to us.atgtickets.com"},
-      {"name": "luma", "url": "https://lu.ma/discover/sf-bay-area", "notes": "JS-rendered, anti-bot — use /scrape + /skillify"}
+      {
+        "name": "broadway-sf",
+        "url": "https://www.broadwaysf.com/events",
+        "notes": "React/MUI app, redirects to us.atgtickets.com"
+      },
+      {
+        "name": "luma",
+        "url": "https://lu.ma/discover/sf-bay-area",
+        "notes": "JS-rendered, anti-bot \u2014 use /scrape + /skillify"
+      }
     ]
   }
 }
