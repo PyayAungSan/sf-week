@@ -97,9 +97,11 @@ export function parseDateString(s: string): string | null {
 }
 
 export async function fetchHtml(): Promise<string> {
-  // Static-HTML site — could use plain fetch + cheerio (no JS render needed).
-  // Wire in the next implementation pass.
-  throw new Error("fetchHtml not yet implemented — use plain fetch on this static page");
+  const r = await fetch(PAGE_URL, {
+    headers: { "user-agent": "Mozilla/5.0 (sf-week digest)" },
+  });
+  if (!r.ok) throw new Error(`SFMOMA fetch ${r.status}`);
+  return r.text();
 }
 
 export async function run(): Promise<SourceResult> {

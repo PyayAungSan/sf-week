@@ -113,8 +113,12 @@ export function extractPerformanceLd(html: string): PerformanceLd[] {
   return out;
 }
 
-export async function fetchHtml(_url: string): Promise<string> {
-  throw new Error("fetchHtml not yet implemented — use plain fetch on each show page");
+export async function fetchHtml(url: string): Promise<string> {
+  const r = await fetch(url, {
+    headers: { "user-agent": "Mozilla/5.0 (sf-week digest)" },
+  });
+  if (!r.ok) throw new Error(`Berkeley Rep fetch ${url} -> ${r.status}`);
+  return r.text();
 }
 
 export async function run(): Promise<SourceResult> {

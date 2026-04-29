@@ -1,6 +1,4 @@
 import type { Event } from "./types.ts";
-// CEO Expansion #1: dedupe is generic over Event[].
-// Primary key: url. Secondary fuzzy key: lowercased_title + start_iso_to_hour + venue_normalized.
 
 export interface VenueAliasMap {
   aliases: Record<string, string>;
@@ -8,11 +6,8 @@ export interface VenueAliasMap {
 
 export function normalizeVenue(venue: string, aliases: VenueAliasMap): string {
   let v = venue.toLowerCase().trim();
-  // strip leading "the "
   v = v.replace(/^the /, "");
-  // strip punctuation
-  v = v.replace(/[.,'"]/g, "").trim();
-  // apply alias map
+  v = v.replace(/[.,'"’]/g, "").trim();
   return aliases.aliases[v] ?? v;
 }
 
@@ -23,16 +18,34 @@ export function buildNormalizedKey(
   aliases: VenueAliasMap,
 ): string {
   const t = title.toLowerCase().trim();
-  // truncate start to the hour
-  const startHour = startIso.slice(0, 13);  // "YYYY-MM-DDTHH"
+  const startHour = startIso.slice(0, 13); // "YYYY-MM-DDTHH"
   const v = normalizeVenue(venue, aliases);
   return `${t}|${startHour}|${v}`;
 }
 
+// Dedupes events using:
+// 1. Primary: exact URL match
+// 2. Secondary: normalized_key (title + start hour + venue alias-normalized)
+// When duplicates collapse, prefer the entry with the longer description (more context for grader).
 export function dedupe(events: Event[]): Event[] {
-  // TODO: implement
-  // 1. By URL: collapse exact duplicates
-  // 2. By normalized_key: collapse fuzzy duplicates, prefer the entry with longer description
-  // 3. Return the merged set
-  return events;
+  const byUrl = new Map<string, Event>();
+  for (const e of events) {
+    const existing = byUrl.get(e.url);
+    if (!existing) {
+      byUrl.set(e.url, e);
+    } else if (e.description.length > existing.description.length) {
+      byUrl.set(e.url, e);
+    }
+  }
+
+  const byKey = new Map<string, Event>();
+  for (const e of byUrl.values()) {
+    const existing = byKey.get(e.normalized_key);
+    if (!existing) {
+      byKey.set(e.normalized_key, e);
+    } else if (e.description.length > existing.description.length) {
+      byKey.set(e.normalized_key, e);
+    }
+  }
+  return Array.from(byKey.values());
 }
