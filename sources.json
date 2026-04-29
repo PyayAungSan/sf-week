@@ -1,0 +1,22 @@
+{
+  "sf": {
+    "api_or_rss": [
+      {"name": "todays-tix", "url": "https://www.todaystix.com/x/san-francisco", "notes": "TodaysTix listings; check for JSON endpoint"}
+    ],
+    "static_html": [
+      {"name": "act", "url": "https://www.act-sf.org/whats-on/"},
+      {"name": "berkeley-rep", "url": "https://www.berkeleyrep.org/season/"},
+      {"name": "sf-playhouse", "url": "https://sfplayhouse.org/sfph/2025-26-season/"},
+      {"name": "magic-theatre", "url": "https://www.magictheatre.org/season"},
+      {"name": "broadway-sf", "url": "https://www.broadwaysf.com/events"},
+      {"name": "sfmoma", "url": "https://www.sfmoma.org/calendar/"},
+      {"name": "de-young", "url": "https://www.famsf.org/de-young/calendar"},
+      {"name": "bampfa", "url": "https://bampfa.org/programs/calendar"},
+      {"name": "asian-art", "url": "https://asianart.org/events/"},
+      {"name": "hyperallergic", "url": "https://hyperallergic.com/category/events/sf/"}
+    ],
+    "headed_browser": [
+      {"name": "luma", "url": "https://lu.ma/discover/sf-bay-area", "notes": "JS-rendered, anti-bot — use /scrape + /skillify"}
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.local
+*.log
+failed-sources.log
+.DS_Store
+.bun/
+dist/
+# Generated weekly by cron — committed back to main intentionally
+# but ignore local dev artifacts:
+.tmp/
