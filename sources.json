@@ -1,64 +1,79 @@
 {
   "_notes": {
     "broadway-sf": "Site is broadwaysf.com but redirects to us.atgtickets.com. JS-rendered React app \u2014 needs playwright, not static fetch.",
-    "todays-tix": "JSON-LD strategy: parses schema.org TheaterEvent entries from <script type=application/ld+json>. Stable across page redesigns. URL is /sf-bay-area/, NOT /san-francisco."
+    "todays-tix": "JSON-LD strategy: parses schema.org TheaterEvent entries from <script type=application/ld+json>. Stable across page redesigns. URL is /sf-bay-area/, NOT /san-francisco.",
+    "sfmoma": "Use /events/ NOT /calendar/ (which is 'What's On View' exhibitions). HTML cards via .archive--type-event.",
+    "famsf": "Correct URL is /calendar (not /de-young/calendar). Page appears to be JS-rendered or empty server-side; needs more inspection. Skipped in v1.",
+    "bampfa": "Correct URL is /calendar (not /programs/calendar). Cards use .calendar-event class but dates are inferred from a 'April 2026' header + day-of-month per group. Complex date model \u2014 skipped in v1, parser will need month-rollover logic.",
+    "asian-art": "Lives at calendar.asianart.org subdomain, not /events/ on main site. ~26 events in <li> elements, no JSON-LD on listing or detail pages. Needs custom HTML walk \u2014 skipped in v1.",
+    "berkeley-rep": "Show pages emit ONE schema.org Event LD entry per individual performance (e.g. 43 entries for The Monsters). collapsePerformances() folds these into one logical Event with start=earliest, end=latest.",
+    "act": "Two-stage: extractShowUrls() over /whats-on/2025-26-season \u2192 fetch each show page \u2192 parseShowJsonLd() the schema.org Event."
   },
   "sf": {
     "api_or_rss": [
       {
         "name": "todays-tix",
         "url": "https://www.todaytix.com/sf-bay-area/category/all-shows",
-        "notes": "Use parseJsonLd() over schema.org TheaterEvent JSON-LD; production fetchHtml needs playwright to render the page first."
+        "notes": "JSON-LD strategy. v1 parser working: 11 tests."
       }
     ],
     "static_html": [
       {
+        "name": "sfmoma",
+        "url": "https://www.sfmoma.org/events/",
+        "notes": "v1 parser working: 9 tests."
+      },
+      {
         "name": "act",
-        "url": "https://www.act-sf.org/whats-on/"
+        "url": "https://www.act-sf.org/whats-on/2025-26-season",
+        "notes": "Two-stage flow. v1 parser working: 11 tests."
       },
       {
         "name": "berkeley-rep",
-        "url": "https://www.berkeleyrep.org/season/"
+        "url": "https://www.berkeleyrep.org/season/",
+        "notes": "Two-stage with per-perf collapse. v1 parser working: 10 tests."
       },
       {
-        "name": "sf-playhouse",
-        "url": "https://sfplayhouse.org/sfph/2025-26-season/"
-      },
-      {
-        "name": "magic-theatre",
-        "url": "https://www.magictheatre.org/season"
-      },
-      {
-        "name": "sfmoma",
-        "url": "https://www.sfmoma.org/calendar/"
-      },
-      {
-        "name": "de-young",
-        "url": "https://www.famsf.org/de-young/calendar"
+        "name": "famsf",
+        "url": "https://www.famsf.org/calendar",
+        "notes": "TODO: needs deeper investigation \u2014 page may be JS-rendered."
       },
       {
         "name": "bampfa",
-        "url": "https://bampfa.org/programs/calendar"
+        "url": "https://bampfa.org/calendar",
+        "notes": "TODO: complex date model (month + day-of-month, no per-card ISO date)."
       },
       {
         "name": "asian-art",
-        "url": "https://asianart.org/events/"
+        "url": "https://calendar.asianart.org/",
+        "notes": "TODO: ~26 events in <li>, no JSON-LD; needs custom walk."
+      },
+      {
+        "name": "sf-playhouse",
+        "url": "https://sfplayhouse.org/sfph/2025-26-season/",
+        "notes": "TODO: not yet inspected."
+      },
+      {
+        "name": "magic-theatre",
+        "url": "https://www.magictheatre.org/season",
+        "notes": "TODO: not yet inspected."
       },
       {
         "name": "hyperallergic",
-        "url": "https://hyperallergic.com/category/events/sf/"
+        "url": "https://hyperallergic.com/category/events/sf/",
+        "notes": "TODO: not yet inspected; aggregator, may be lower-priority."
       }
     ],
     "headed_browser": [
       {
         "name": "broadway-sf",
         "url": "https://www.broadwaysf.com/events",
-        "notes": "React/MUI app, redirects to us.atgtickets.com"
+        "notes": "v1 parser working: 9 tests."
       },
       {
         "name": "luma",
         "url": "https://lu.ma/discover/sf-bay-area",
-        "notes": "JS-rendered, anti-bot \u2014 use /scrape + /skillify"
+        "notes": "TODO: JS-rendered + anti-bot. Hardest source. Use /scrape + /skillify."
       }
     ]
   }
