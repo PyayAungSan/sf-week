@@ -1,11 +1,30 @@
+# Dependencies
 node_modules/
-.env
-.env.local
-*.log
-failed-sources.log
-.DS_Store
 .bun/
 dist/
-# Generated weekly by cron — committed back to main intentionally
-# but ignore local dev artifacts:
+
+# Environment / secrets — NEVER commit these
+.env
+.env.*
+!.env.example
+*.local
+.envrc
+*.pem
+*.key
+*.crt
+*.p12
+secrets/
+credentials/
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+failed-sources.log
+
+# Local dev artifacts
 .tmp/

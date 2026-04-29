@@ -107,3 +107,15 @@ The `.github/workflows/digest.yml` file is on disk but not yet pushed (gh OAuth 
 3. Set secrets: `gh secret set ANTHROPIC_API_KEY -R PyayAungSan/sf-week`, same for `RESEND_API_KEY` and `DIGEST_TO_EMAIL`
 4. Enable GitHub Pages from `/docs` on `main` (already done via `gh api`)
 5. First scheduled Sunday at 17:00 UTC is the real test
+
+## Secrets policy
+
+This repo is public — `users/pyay/taste.md` is intentionally committed (it's the product). But API keys and credentials are NEVER committed.
+
+- `.env` and friends are `.gitignored`. Copy `.env.example` → `.env` and fill in.
+- A pre-commit hook in `.githooks/pre-commit` scans staged content for known secret patterns (Anthropic `sk-ant-*`, Resend, GitHub tokens, AWS, OpenAI, Stripe, Slack, JWT). The hook is wired automatically by `bun install`'s postinstall script.
+- Production secrets live in GitHub Actions secrets (`ANTHROPIC_API_KEY`, `RESEND_API_KEY`, `DIGEST_TO_EMAIL`), set via `gh secret set`.
+- Test fixtures (`test/fixtures/*.html`) are full venue-site HTML pages. They contain public Google Analytics IDs and CSS class names — those are owned by the venues, not us, and are not secrets. The audit confirmed nothing personal-to-us leaks through.
+
+If you ever need to override the hook (false positive): `git commit --no-verify`. Use sparingly.
+

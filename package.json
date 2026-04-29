@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "digest": "bun run index.ts",
-    "test": "bun test"
+    "test": "bun test",
+    "postinstall": "git config core.hooksPath .githooks 2>/dev/null || true"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.30.0",

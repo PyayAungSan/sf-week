@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+# sf-week pre-commit secret scan.
+# Refuses any staged content that looks like a real API key.
+# False positives can be bypassed with: git commit --no-verify (use sparingly).
+
+set -euo pipefail
+
+# Only scan added/modified content (use staged diff).
+diff_content=$(git diff --cached --no-color --unified=0)
+
+if [[ -z "$diff_content" ]]; then
+  exit 0
+fi
+
+# Patterns that match REAL keys, not class names / GA IDs / form field labels.
+# Each pattern targets a known prefix + length so false positives are rare.
+declare -a patterns=(
+  'sk-ant-[a-zA-Z0-9_-]{40,}'                        # Anthropic
+  're_[a-zA-Z0-9]{8,}_[a-zA-Z0-9_-]{16,}'            # Resend (re_<id>_<secret>)
+  '(ghp|gho|ghu|ghs|ghr)_[a-zA-Z0-9]{36}'            # GitHub fine-grained tokens
+  'AKIA[A-Z0-9]{16}'                                  # AWS access key
+  'ASIA[A-Z0-9]{16}'                                  # AWS temp credentials
+  'sk-[a-zA-Z0-9]{48}'                                # OpenAI standard key
+  'sk_(live|test)_[a-zA-Z0-9]{24,}'                   # Stripe
+  'xox[abp]-[a-zA-Z0-9-]{20,}'                        # Slack
+  'eyJ[a-zA-Z0-9_-]+\.eyJ[a-zA-Z0-9_-]+\.[a-zA-Z0-9_-]+'  # JWT
+)
+
+found=0
+for p in "${patterns[@]}"; do
+  if matches=$(echo "$diff_content" | grep -E "$p" || true); [[ -n "$matches" ]]; then
+    echo "REJECTED: staged content matches secret pattern '$p':" >&2
+    echo "$matches" | head -3 >&2
+    found=1
+  fi
+done
+
+if [[ $found -ne 0 ]]; then
+  echo "" >&2
+  echo "If this is a false positive, bypass with: git commit --no-verify" >&2
+  exit 1
+fi
