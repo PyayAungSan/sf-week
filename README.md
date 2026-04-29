@@ -2,11 +2,13 @@
 
 Personal SF city-event digest. Sunday morning email + `.ics` calendar feed, LLM-graded picks against a plain-English taste profile.
 
-## Quick reference
+## Design history
 
-- **Design doc:** `~/.gstack/projects/garrytan-gstack/pyayaungsan-city-event-planner-design-20260428-230645.md`
-- **CEO plan:** `~/.gstack/projects/garrytan-gstack/ceo-plans/2026-04-28-city-event-planner.md`
-- **Test plan:** `~/.gstack/projects/garrytan-gstack/pyayaungsan-city-event-planner-eng-review-test-plan-*.md`
+Read [`design/`](design/) for the full thinking behind this project:
+
+- [`design/01-design-doc.md`](design/01-design-doc.md) — Problem, premises, approaches, architecture, success criteria
+- [`design/02-ceo-plan.md`](design/02-ceo-plan.md) — Scope decisions and the directory-layout reasoning
+- [`design/03-test-plan.md`](design/03-test-plan.md) — Test inventory and critical paths
 
 ## Architecture
 

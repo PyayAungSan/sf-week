@@ -17,7 +17,7 @@ This project was designed via:
 - `/plan-ceo-review` (SELECTIVE EXPANSION mode, 4 expansions accepted)
 - `/plan-eng-review` (test plan + scaffold)
 
-All three artifacts live in `~/.gstack/projects/garrytan-gstack/`.
+The three artifacts live in [`design/`](design/) — see [`design/README.md`](design/README.md) for the reading order.
 
 ## Per-source parser workflow
 
