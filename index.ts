@@ -19,6 +19,7 @@ import * as act from "./sources/sf/act.ts";
 import * as berkeleyRep from "./sources/sf/berkeley-rep.ts";
 import * as sfPlayhouse from "./sources/sf/sf-playhouse.ts";
 import * as magicTheatre from "./sources/sf/magic-theatre.ts";
+import * as asianArt from "./sources/sf/asian-art.ts";
 
 const ROOT = new URL(".", import.meta.url).pathname;
 
@@ -202,6 +203,7 @@ async function fetchLive(
     ["berkeley-rep", berkeleyRep],
     ["sf-playhouse", sfPlayhouse],
     ["magic-theatre", magicTheatre],
+    ["asian-art", asianArt],
   ] as const) {
     try {
       const result = await mod.run();
@@ -321,6 +323,14 @@ async function loadFromFixtures(
   } catch (err) {
     failedSources.push("magic-theatre");
     console.error(`[sf-week] magic-theatre fixture: ${err}`);
+  }
+  // Asian Art Museum
+  try {
+    const html = await loadFixture("asian-art.html");
+    all.push(...asianArt.parseHtml(html, aliases));
+  } catch (err) {
+    failedSources.push("asian-art");
+    console.error(`[sf-week] asian-art fixture: ${err}`);
   }
   return all;
 }
